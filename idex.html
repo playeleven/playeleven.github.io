@@ -2,35 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Eleven RP</title>
   <style>
-    body {
+    @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+    * {
       margin: 0;
       padding: 0;
-      background: #111;
-      color: #fff;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      background: #0b0b0b url('https://wallpapercave.com/wp/wp9414826.jpg') no-repeat center center / cover;
+      font-family: 'Russo One', sans-serif;
+      color: white;
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      font-family: sans-serif;
+      text-align: center;
+      flex-direction: column;
+      padding: 20px;
     }
-    .btn {
-      background: #7289da;
+
+    h1 {
+      font-size: 4rem;
+      text-shadow: 0 0 10px #000;
+      margin-bottom: 15px;
+      letter-spacing: 3px;
+    }
+
+    p {
+      font-size: 1.3rem;
+      text-shadow: 0 0 6px #000;
+      margin-bottom: 40px;
+    }
+
+    a.discord-btn {
+      background-color: #7289da;
       color: white;
-      padding: 15px 30px;
+      padding: 18px 45px;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      font-weight: bold;
       text-decoration: none;
-      border-radius: 8px;
-      font-size: 1.1rem;
-      margin-top: 20px;
+      box-shadow: 0 0 20px #7289da;
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
+
+    a.discord-btn:hover {
+      background-color: #5b6eae;
+      box-shadow: 0 0 40px #5b6eae;
+    }
+
   </style>
 </head>
 <body>
-  <h1>Dobrodošli na Eleven RP</h1>
-  <p>Uđi na naš Discord server i pridruži se zajednici!</p>
-  <a href="https://discord.gg/tvoj-link" class="btn" target="_blank">Pridruži se</a>
+
+  <h1>Eleven RP</h1>
+  <p>Pridruži se našem Discord serveru i postani deo zajednice!</p>
+  <a href="https://discord.gg/BXK32ntTTZ" target="_blank" class="discord-btn">Discord Invite</a>
+
 </body>
 </html>
